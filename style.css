@@ -109,6 +109,14 @@ img {
     justify-content: center;
 }
 
+.portrait {
+    justify-self: center;
+    display: grid;
+    justify-items: center;
+    font-size: 1.2em;
+
+}
+
 #boring-card {
     width: 90%;
     justify-self: center;
@@ -116,12 +124,12 @@ img {
 
 #cool-card {
     width: auto;
-    height: 40vh;
+    height: 30vh;
     justify-self: center;
 }
 
 #ebsPic {
-    justify-self: center;
+    /* justify-self: center; */
     border-radius: 100%;
 }
 
