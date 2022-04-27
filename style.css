@@ -105,6 +105,8 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 
+    z-index: 2;
+
 }
 
 .sale-intro {
@@ -146,6 +148,7 @@ img {
     width: auto;
     height: 30vh;
     justify-self: center;
+    z-index: 2;
 }
 
 #ebsPic {
