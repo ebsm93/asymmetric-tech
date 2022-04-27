@@ -159,12 +159,30 @@ img {
     justify-items: center;
 }
 
+.contractors {
+    /* border: 1px solid white; */
+    background-color: var(--main-thematic-bg-color);
+    border-radius: 10px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
 .portrait {
     justify-self: center;
     display: grid;
     justify-items: center;
     font-size: 1.2em;
+    text-align: center;
+}
 
+.name {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.bio {
+    background-color: var(--main-thematic-bg-color);
 }
 
 #boring-card {
