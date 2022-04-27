@@ -157,15 +157,40 @@ img {
 .previous-work {
     display: grid;
     justify-items: center;
+    background-color: var(--main-thematic-bg-color);
+    margin-top: 5vh;
+    padding: 5px;
+    gap: 3vh;
 }
 
-.contractors {
-    /* border: 1px solid white; */
-    background-color: var(--main-thematic-bg-color);
+.previous-work>h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    /* margin-bottom: 0; */
+    /* font-size: 1.2em; */
+}
+
+.previous-work-type {
+    border: 1px solid white;
     border-radius: 10px;
     width: 100%;
     display: grid;
     justify-items: center;
+    /* gap: 6vh; */
+}
+
+.previous-work-type>ul {
+    margin-top: 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: grid;
+    gap: 4vh;
+}
+
+.previous-work img {
+    width: 50vw;
+    height: auto;
 }
 
 .portrait {
