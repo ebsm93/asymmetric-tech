@@ -154,6 +154,11 @@ img {
     border: 1px solid white;
 }
 
+.previous-work {
+    display: grid;
+    justify-items: center;
+}
+
 .portrait {
     justify-self: center;
     display: grid;
@@ -165,6 +170,7 @@ img {
 #boring-card {
     width: 90%;
     justify-self: center;
+    margin-bottom: 2vh;
 }
 
 #cool-card {
