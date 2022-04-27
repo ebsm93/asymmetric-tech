@@ -128,12 +128,12 @@ img {
 
 .pricing {
 
-    border-radius: 20px;
+    /* border-radius: 20px; */
     justify-self: center;
     /* border: 1px solid white; */
     letter-spacing: 1px;
     text-align: center;
-    margin: 5px;
+    /* margin: 5px; */
     padding: 3px;
 
     font-weight: 600;
@@ -179,7 +179,7 @@ img {
     /* gap: 6vh; */
 }
 
-.previous-work-type>ul {
+.previous-work-type ul {
     margin-top: 0;
     list-style: none;
     text-align: center;
