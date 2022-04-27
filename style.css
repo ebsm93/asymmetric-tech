@@ -40,7 +40,7 @@ a {
 img {
     width: 60vw;
     height: auto;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: var(--standard-border-radius);
     box-shadow: var(--img-shadow);
 }
@@ -115,9 +115,6 @@ img {
 }
 
 .sale-pitch {
-    /* display: grid;
-    justify-items: center;
-    align-items: center; */
     background-color: var(--main-thematic-bg-color);
     text-align: center;
     justify-self: center;
@@ -127,8 +124,34 @@ img {
 
     line-height: 25px;
     margin-bottom: 5vh;
-    /* margin: -35px; */
+}
 
+.pricing {
+
+    border-radius: 20px;
+    justify-self: center;
+    /* border: 1px solid white; */
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 5px;
+    padding: 3px;
+
+    font-weight: 600;
+
+    background-color: var(--main-thematic-bg-color);
+}
+
+.price-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 5vh;
+}
+
+.price-list>li {
+    padding-top: 2vh;
+    border-radius: 10px;
+    border: 1px solid white;
 }
 
 .portrait {
