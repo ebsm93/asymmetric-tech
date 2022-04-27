@@ -25,6 +25,7 @@ body {
 
 body {
     color: var(--root-font-color);
+    margin: 0;
 
     background-image: url(./images/aaron-lau-EOnlL3L3IgQ-unsplash.jpg);
     background-size: cover;
@@ -45,7 +46,7 @@ img {
 }
 
 .page-wrap {
-    padding: 5px;
+    /* padding: 5px; */
     display: grid;
     justify-content: center;
     animation: content-trans 2s forwards;
@@ -62,7 +63,7 @@ img {
     background-color: var(--main-thematic-bg-color);
     text-align: center;
     padding: 4px;
-    width: 100%;
+    width: 95%;
     margin: 2vh;
     border-radius: var(--standard-border-radius);
     justify-self: center;
@@ -109,6 +110,23 @@ img {
 .sale-intro {
     display: grid;
     justify-content: center;
+}
+
+.sale-pitch {
+    /* display: grid;
+    justify-items: center;
+    align-items: center; */
+    background-color: var(--main-thematic-bg-color);
+    text-align: center;
+    justify-self: center;
+    padding: 6px;
+
+    font-size: 1.2em;
+
+    line-height: 25px;
+    margin-bottom: 5vh;
+    /* margin: -35px; */
+
 }
 
 .portrait {
