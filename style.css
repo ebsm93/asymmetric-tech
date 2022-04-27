@@ -101,6 +101,8 @@ img {
     justify-self: center;
     width: fit-content;
     text-align: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -131,6 +133,11 @@ img {
 #ebsPic {
     /* justify-self: center; */
     border-radius: 100%;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 
