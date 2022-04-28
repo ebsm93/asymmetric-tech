@@ -236,6 +236,12 @@ span {
     line-height: 22px;
 }
 
+.last-pitch {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
 .portrait {
     justify-self: center;
     display: grid;
