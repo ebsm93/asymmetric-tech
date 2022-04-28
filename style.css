@@ -94,7 +94,8 @@ img:hover {
 }
 
 .subtitle {
-    font-size: 1.7em;
+    line-height: 45px;
+    font-size: 2em;
 }
 
 .intro-text {
