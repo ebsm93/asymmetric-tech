@@ -153,7 +153,7 @@ img {
 }
 
 .price-list>li {
-    padding-top: 2vh;
+    padding: 1vh;
     border-radius: 10px;
     border: 1px solid white;
 }
@@ -184,6 +184,7 @@ img {
     width: 100%;
     display: grid;
     justify-items: center;
+    font-size: 1.2em;
     /* gap: 6vh; */
 }
 
@@ -206,7 +207,31 @@ img {
     margin-bottom: 3vh;
     display: grid;
     justify-content: center;
-    background: var(--main-thematic-bg-color)
+    background: var(--main-thematic-bg-color);
+    font-size: 1.2em;
+    padding: 2vh;
+
+}
+
+/* .how-it-works {
+    font-size: 1.2em;
+} */
+
+.section>h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-align: center;
+}
+
+span {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.other-services {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 22px;
 }
 
 .portrait {
@@ -220,6 +245,8 @@ img {
 .name {
     text-decoration: underline;
     margin-bottom: 0;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 2px black;
 }
 
 .bio {
