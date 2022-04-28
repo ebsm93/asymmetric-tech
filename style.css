@@ -265,6 +265,11 @@ span {
     text-align: center;
 }
 
+.credits {
+    text-align: center;
+    font-size: 0.8em;
+
+}
 #boring-card {
     width: 90%;
     justify-self: center;
