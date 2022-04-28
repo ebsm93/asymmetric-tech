@@ -158,6 +158,10 @@ img {
     border: 1px solid white;
 }
 
+.maintenance-disclaimer {
+    color: rgb(209, 24, 24);
+}
+
 .previous-work {
     display: grid;
     justify-items: center;
@@ -195,6 +199,14 @@ img {
 .previous-work img {
     width: 50vw;
     height: auto;
+}
+
+.section {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: grid;
+    justify-content: center;
+    background: var(--main-thematic-bg-color)
 }
 
 .portrait {
