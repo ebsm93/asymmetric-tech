@@ -1,13 +1,13 @@
 :root {
     --root-font-size: 18px;
     --root-font-weight: 700;
-    --root-font-color: rgb(231, 179, 8);
+    --root-font-color: rgb(243, 188, 6);
     --root-font-shadow: 1px 1px 1px black;
     --a-color: aqua;
     --standard-border-radius: 10px;
 
     /* --main-thematic-bg-color: rgb(2, 0, 36, 0.7); */
-    --main-thematic-bg-color: rgba(17, 12, 2, 0.7);
+    --main-thematic-bg-color: rgba(17, 12, 2, 0.8);
     --main-thematic-bg-color-transparent: rgb(2, 0, 36, 0);
     --contact-card-bg-color:  rgba(2, 1, 19, 0.7);
     --title-font-size: 2.1em;
@@ -219,10 +219,6 @@ img:hover {
 
 }
 
-/* .how-it-works {
-    font-size: 1.2em;
-} */
-
 .section>h2 {
     text-decoration: underline;
     text-decoration-thickness: 1px;
@@ -256,7 +252,11 @@ span {
 }
 
 .bio {
-    background-color: var(--main-thematic-bg-color);
+    display: inline-block;
+    font-size: 0.9em;
+    text-align: left;
+    line-height: 23px;
+    text-align: center;
 }
 
 #boring-card {
