@@ -11,7 +11,7 @@
     --main-thematic-bg-color-transparent: rgb(2, 0, 36, 0);
     --contact-card-bg-color:  rgba(2, 1, 19, 0.7);
     --title-font-size: 2.1em;
-    --title-font-color: rgb(206, 185, 3);
+    --title-font-color: rgb(238, 215, 12);
     --title-border: 2px solid white;
     --img-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
@@ -44,6 +44,12 @@ img {
     border-radius: var(--standard-border-radius);
     box-shadow: var(--img-shadow);
 }
+
+img:hover {
+    box-shadow: 3px 3px 3px  white;
+    cursor: pointer;
+}
+
 
 .page-wrap {
     /* padding: 5px; */
@@ -275,6 +281,12 @@ span {
     text-decoration: underline;
     text-decoration-thickness: 1px;
 }
+
+.clicked-image {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
 
 
 @keyframes link-trans {
