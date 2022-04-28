@@ -270,19 +270,33 @@ span {
     font-size: 0.8em;
 
 }
+
+.cool-cards {
+    display: flex;
+    justify-content: center;
+}
+
+#cool-card {
+    z-index: 2;
+    transform: translate(30px, 0px);
+}
+
+#cool-card-back {
+    transform:rotate(5deg)
+}
+
+.intro-card {
+    width: auto;
+    height: 30vh;
+    justify-self: center;
+    
+}
+
 #boring-card {
     width: 90%;
     justify-self: center;
     margin-bottom: 2vh;
 }
-
-#cool-card {
-    width: auto;
-    height: 30vh;
-    justify-self: center;
-    z-index: 2;
-}
-
 #ebsPic {
     /* justify-self: center; */
     border-radius: 100%;
