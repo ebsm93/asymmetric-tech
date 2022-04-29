@@ -181,13 +181,12 @@ img:hover {
 .previous-work>h2 {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    /* margin-bottom: 0; */
+    margin-bottom: 0;
     /* font-size: 1.2em; */
 }
 
 .previous-work-type {
-    border: 1px solid white;
-    border-radius: 10px;
+    /* background-color: rgb(2, 0, 36, 0); */
     width: 100%;
     display: grid;
     justify-items: center;
@@ -195,11 +194,17 @@ img:hover {
     /* gap: 6vh; */
 }
 
+.previous-work-type>ul {
+    border-radius: 10px;
+    border: 1px solid white;
+    
+}
+
 .previous-work-type ul {
     margin-top: 0;
     list-style: none;
     text-align: center;
-    padding: 0;
+    padding: 1vh;
     display: grid;
     gap: 4vh;
 }
@@ -275,6 +280,7 @@ span {
 .cool-cards {
     display: flex;
     justify-content: center;
+    margin-bottom: 5vh;
 }
 
 #cool-card {
